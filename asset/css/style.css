@@ -1,0 +1,25 @@
+*{
+    direction: rtl;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/background.jpg") no-repeat center center / cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.contents{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+a{
+    text-decoration: underline;
+    color: inherit;
+}

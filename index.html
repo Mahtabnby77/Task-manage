@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+
+    <link rel="icon" type="image/png" sizes="30x30" href="asset/images/fav.png">
+    <link rel="stylesheet" href="asset/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+<body>
+    <div class="background"></div>
+
+    <div class="contents">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="glass col-8 bg-primary my-5 bg-opacity-25 text-white p-3">
+                    <h3 class="text-center mb-4">Task Manager</h3>
+                    <div class="row">
+                        <div class="col-lg-9 col-sm-12 mb-2">
+                            <input type="text" class="form-control" placeholder="متن را وارد کنید ..." id="newTaskInput">
+                        </div>
+                        <div class="col-lg-3 col-sm-12">
+                            <button class="btn btn-success w-100" id="addBtn">اضافه کردن متن جدید</button>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row text-black">
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="فیلتر ..." id="searchInput">
+                        </div>
+                        <div class="col-12 my-3">
+                            <button class="btn btn-warning w-100" id="deleteAll">حذف همه</button>
+                        </div>
+                        <div class="col-12 mt-4 d-flex flex-wrap justify-content-around" id="tasksList">
+                            <!-- Tasks goes Here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="asset/js/app.js"></script>
+</body>
+
+</html>
